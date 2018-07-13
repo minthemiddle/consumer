@@ -8,7 +8,7 @@
             {{ $page->title }}
         </header>
 
-        <div>{{ $page->filename }}, {{ $ }}</div>
+        <div>{{ $page->filename }}</div>
 
         @yield('contents')
 
